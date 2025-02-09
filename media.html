@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Elements</title>
+</head>
+<body>
+        <h1>Welcome to My Media Page</h1>
+
+        <h2>I am <b><i>Peace Ben</i></b> </h2>
+        <h1>About me </h1>
+        
+        <img src="assets/CNEM4759_i9apde.jpg" alt="A picture of me" height="400" width="350">
+
+        <p><i>Above is a picture of me</i></p>
+
+        <picture>
+            <source 
+                srcset="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                media="(min-width: 1024px)"
+                width="500"
+                height="300"> 
+            <source 
+                srcset="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                media="(min-width: 768px)"
+                width="800"
+                height="300">
+            <source 
+                srcset="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                media="(min-width: 320px)"
+                width="400"
+                height="200">
+            <img 
+                src="https://meiza.ng/wp-content/uploads/2023/10/istockphoto-1286022845-612x612-1.jpg"
+                alt="A developer working on code"
+                media="(min-width: 768px)"
+                width="400"
+                height="200">
+        </picture>
+
+        <p>I'm learning backend engineering at AltSchool Africa</p>
+
+
+        <h2>Here is a song I love</h2>
+        <div>
+            <audio controls></audio>
+                <source src="assets/Tchella_-_Ife_In_Love.mp3" type="audio/mp3">
+            </audio>
+        </div>
+            
+
+            <video width="640" height="360" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                Your browser does not support the video element.
+            </video>
+            <p>Here is a random video</p>
+            <div>
+                
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/watch?v=TlB_eWDSMt4"
+                title="Project Demo"
+                allowfullscreen>
+            </iframe>
+            <p>Here is a video of a learning channel I love</p>
+            </div>
+            
+
+            <h2>Technical Skills</h2>
+            <label for="html-skill">HTML5:</label>
+            <meter id="html-skill" value="0.9" min="0" max="1">90%</meter><br>
+
+            <label for="progress">Current Project:</label>
+            <progress id="progress" value="70" max="100">70%</progress>
+
+
+    <footer>
+        <audio autoplay loop controls>
+            <source src="assets/Tchella_-_Ife_In_Love.mp3" type="audio/mp3">
+        </audio>
+    </footer>
+</body>
+</html>
